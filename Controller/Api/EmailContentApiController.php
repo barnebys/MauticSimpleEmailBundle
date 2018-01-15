@@ -1,7 +1,7 @@
 <?php
 
 
-namespace MauticPlugin\BarnebysEmailBundle\Controller\Api;
+namespace MauticPlugin\MauticSimpleEmailBundle\Controller\Api;
 
 use FOS\RestBundle\Util\Codes;
 use Mautic\ApiBundle\Controller\CommonApiController;

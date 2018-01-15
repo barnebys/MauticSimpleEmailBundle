@@ -9,7 +9,7 @@ return [
         'api' => [
             'mautic_api_sendcontactemailcontent' => [
                 'path'       => '/emails/{id}/contact/{leadId}/send-content',
-                'controller' => 'BarnebysEmailBundle:Api\EmailContentApi:sendLeadContent',
+                'controller' => 'MauticSimpleEmailBundle:Api\EmailContentApi:sendLeadContent',
                 'method'     => 'POST',
             ],
         ],
